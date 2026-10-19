@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reparación de computadores, televisores y más</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=Figtree:wght@400;600&display=swap">
+<style>
+:root{--bg:#f3f6f4;--ink:#10231d;--mut:#4b5f57;--card:#fff;--line:#d3ddd8;--acc:#0b7a5a;--hi:#ffc83d;--on:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1a16;--ink:#eaf3ee;--mut:#9fb3a9;--card:#15251f;--line:#27403a;--acc:#35c997;--on:#06130e}}
+:root[data-theme="dark"]{--bg:#0e1a16;--ink:#eaf3ee;--mut:#9fb3a9;--card:#15251f;--line:#27403a;--acc:#35c997;--on:#06130e}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 Figtree,system-ui,sans-serif}
+.w{max-width:960px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:'Bricolage Grotesque',system-ui,sans-serif;line-height:1.1;margin:0}
+.hero{padding:56px 0 40px}
+.hero h1{font-size:clamp(2.2rem,7vw,4rem);font-weight:800;max-width:14em}
+.hero p{max-width:34em;color:var(--mut);margin:18px 0 26px;font-size:1.1rem}
+.btn{display:inline-block;background:var(--acc);color:var(--on);font-weight:600;text-decoration:none;padding:14px 24px;border-radius:999px;border:0;font-size:1rem;cursor:pointer}
+.btn:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--hi);outline-offset:2px}
+.sv{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;padding:12px 0 40px}
+.sv div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+.sv h3{font-size:1.2rem;margin-bottom:6px}
+.sv p{margin:0;color:var(--mut);font-size:.95rem}
+.bar{background:var(--acc);color:var(--on);padding:14px 0;font-weight:600}
+.bar ul{display:flex;flex-wrap:wrap;gap:8px 28px;list-style:none;margin:0;padding:0}
+.form{padding:48px 0 64px;max-width:560px}
+.form h2{font-size:clamp(1.7rem,5vw,2.4rem);margin-bottom:8px}
+.form>p{color:var(--mut);margin:0 0 22px}
+label{display:block;font-weight:600;margin:14px 0 6px}
+input,select,textarea{width:100%;font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}
+textarea{min-height:100px;resize:vertical}
+.form .btn{margin-top:22px;width:100%}
+.sec{padding:44px 0 8px}.sec h2{font-size:clamp(1.6rem,5vw,2.2rem);margin-bottom:18px}
+.st{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;counter-reset:s;list-style:none;margin:0;padding:0}
+.st li{counter-increment:s;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.st li::before{content:counter(s);display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--hi);color:#10231d;font-weight:800;margin-bottom:8px}
+.st b{display:block;font-family:'Bricolage Grotesque',sans-serif;font-size:1.1rem}
+.st span{color:var(--mut);font-size:.95rem}
+.pb{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px 28px;padding-left:20px;margin:0;color:var(--mut)}
+.pb b{color:var(--ink)}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:10px}
+summary{font-weight:600;cursor:pointer}
+details p{margin:10px 0 0;color:var(--mut)}
+footer{border-top:1px solid var(--line);padding:22px 0;color:var(--mut);font-size:.9rem}
+.fab{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));background:#25d366;color:#06130e;font-weight:600;text-decoration:none;padding:13px 18px;border-radius:999px;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+</style>
+</head>
+<body>
+<header class="hero"><div class="w">
+<h1>Reparamos computadores, televisores y más</h1>
+<p>Cuéntanos qué le pasa a tu equipo. Te respondemos por WhatsApp con un diagnóstico y el valor de la reparación.</p>
+<a class="btn" href="https://wa.me/573116748153?text=Hola%2C%20quiero%20consultar%20sobre%20una%20reparaci%C3%B3n" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+</div></header>
+
+<div class="w"><section class="sv" aria-label="Servicios">
+<div><h3>Computadores</h3><p>Portátiles y de escritorio: no encienden, lentos, pantalla dañada, virus, formateo.</p></div>
+<div><h3>Televisores</h3><p>Sin imagen, sin sonido, pantalla con líneas, no prende, fallas de conexión.</p></div>
+<div><h3>Celulares y tablets</h3><p>Cambio de pantalla, batería, puerto de carga y fallas de software.</p></div>
+<div><h3>Otros equipos</h3><p>Consolas, impresoras, monitores, audio y otros dispositivos electrónicos.</p></div>
+</section></div>
+
+<div class="w"><section class="sec"><h2>Cómo trabajamos</h2>
+<ol class="st">
+<li><b>Nos escribes</b><span>Cuéntanos por WhatsApp qué equipo es y qué falla tiene. Puedes enviar fotos o videos.</span></li>
+<li><b>Diagnóstico</b><span>Revisamos el equipo para encontrar la causa real de la falla.</span></li>
+<li><b>Cotización</b><span>Te decimos el valor y el tiempo estimado. No se repara nada sin tu aprobación.</span></li>
+<li><b>Reparación y entrega</b><span>Arreglamos el equipo, lo probamos contigo y te lo entregamos funcionando.</span></li>
+</ol></section></div>
+
+<div class="w"><section class="sec"><h2>Fallas que atendemos</h2>
+<ul class="pb">
+<li><b>Computadores:</b> no encienden, pantalla azul, lentitud, recalentamiento, ruido del ventilador, disco dañado, virus, instalación de Windows y programas, ampliación de memoria RAM y cambio a disco SSD.</li>
+<li><b>Televisores:</b> no prende, imagen con líneas o manchas, sin sonido, retroiluminación (LED) dañada, fallas en el WiFi o las aplicaciones, control remoto que no responde.</li>
+<li><b>Celulares y tablets:</b> pantalla rota, batería que dura poco, no carga, no enciende, fallas de software y actualización.</li>
+<li><b>Otros:</b> consolas de videojuegos, monitores, impresoras, parlantes y equipos de audio.</li>
+</ul></section></div>
+
+<div class="bar"><div class="w"><ul><li>Diagnóstico rápido</li><li>Precio claro antes de reparar</li><li>Garantía en el trabajo</li></ul></div></div>
+
+<div class="w"><section class="sec"><h2>Preguntas frecuentes</h2>
+<details><summary>¿Cuánto cuesta la reparación?</summary><p>Depende del equipo y de la falla. Escríbenos por WhatsApp con los detalles y te damos un valor antes de empezar.</p></details>
+<details><summary>¿Cuánto se demora?</summary><p>Muchas reparaciones se resuelven en pocos días. Al cotizar te damos un tiempo estimado según el caso y la disponibilidad de repuestos.</p></details>
+<details><summary>¿Perderé mis archivos?</summary><p>Hacemos lo posible por conservar tu información. Si tu equipo guarda datos importantes, avísanos al escribir y te explicamos las opciones.</p></details>
+<details><summary>¿Y si no se puede arreglar?</summary><p>Te lo explicamos con claridad y te decimos qué alternativas tienes. Solo se repara con tu aprobación.</p></details>
+<details><summary>¿Qué debo enviar para que me cotices?</summary><p>La marca y el modelo del equipo, una descripción de la falla y, si puedes, fotos o un video de lo que pasa.</p></details>
+</section></div>
+
+<main class="w"><section class="form" id="consulta">
+<h2>Cuéntanos qué necesitas</h2>
+<p>Llena los datos y se abrirá WhatsApp con tu mensaje listo para enviar.</p>
+<label for="n">Tu nombre</label>
+<input id="n" autocomplete="name">
+<label for="d">Dispositivo</label>
+<select id="d"><option>Computador</option><option>Portátil</option><option>Televisor</option><option>Celular</option><option>Tablet</option><option>Otro</option></select>
+<label for="p">¿Qué le pasa?</label>
+<textarea id="p" placeholder="Ej: no enciende, la pantalla tiene líneas…"></textarea>
+<button class="btn" id="go" type="button">Enviar por WhatsApp</button>
+</section></main>
+
+<footer><div class="w">WhatsApp: 311 674 8153</div></footer>
+<a class="fab" href="https://wa.me/573116748153?text=Hola%2C%20quiero%20consultar%20sobre%20una%20reparaci%C3%B3n" target="_blank" rel="noopener">WhatsApp</a>
+
+<script>
+document.getElementById('go').addEventListener('click',function(){
+var n=document.getElementById('n').value.trim(),d=document.getElementById('d').value,p=document.getElementById('p').value.trim();
+var m='Hola, soy '+(n||'un cliente')+'. Necesito reparar mi '+d.toLowerCase()+'.'+(p?' Problema: '+p:'')+' ¿Me pueden ayudar?';
+window.open('https://wa.me/573116748153?text='+encodeURIComponent(m),'_blank');
+});
+</script>
+</body>
+</html>
